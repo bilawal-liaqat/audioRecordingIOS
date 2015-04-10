@@ -21,6 +21,7 @@
 		EFAF2335190D291000B2414D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAF2317190D291000B2414D /* UIKit.framework */; };
 		EFAF233D190D291000B2414D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFAF233B190D291000B2414D /* InfoPlist.strings */; };
 		EFAF233F190D291000B2414D /* RecordPlayAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAF233E190D291000B2414D /* RecordPlayAudioTests.m */; };
+		EFAF2349190D292000B2414D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAF2348190D292000B2414D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EFAF233A190D291000B2414D /* RecordPlayAudioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecordPlayAudioTests-Info.plist"; sourceTree = "<group>"; };
 		EFAF233C190D291000B2414D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFAF233E190D291000B2414D /* RecordPlayAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordPlayAudioTests.m; sourceTree = "<group>"; };
+		EFAF2348190D292000B2414D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFAF2349190D292000B2414D /* AVFoundation.framework in Frameworks */,
 				EFAF2316190D291000B2414D /* CoreGraphics.framework in Frameworks */,
 				EFAF2318190D291000B2414D /* UIKit.framework in Frameworks */,
 				EFAF2314190D291000B2414D /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		EFAF2312190D291000B2414D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFAF2348190D292000B2414D /* AVFoundation.framework */,
 				EFAF2313190D291000B2414D /* Foundation.framework */,
 				EFAF2315190D291000B2414D /* CoreGraphics.framework */,
 				EFAF2317190D291000B2414D /* UIKit.framework */,
@@ -379,6 +383,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecordPlayAudio/RecordPlayAudio-Prefix.pch";
 				INFOPLIST_FILE = "RecordPlayAudio/RecordPlayAudio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecordPlayAudio/RecordPlayAudio-Prefix.pch";
 				INFOPLIST_FILE = "RecordPlayAudio/RecordPlayAudio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
