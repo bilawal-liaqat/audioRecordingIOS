@@ -2,8 +2,8 @@
 //  ViewController.h
 //  RecordPlayAudio
 //
-//  Created by shael verma on 27/04/14.
-//  Copyright (c) 2014 shael verma. All rights reserved.
+//  Created by Bilawal Liaqat
+//  Copyright (c) 2015 Bilawal Liaqat. All rights reserved.
 //
 
 #import "ViewController.h"
